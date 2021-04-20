@@ -22,6 +22,6 @@ links.forEach(link => {
 link.addEventListener("click", function () {   
     enlaces.classList.remove('activado');
     barras.forEach(child => {child.classList.remove('animado')});
-    ham.classList.toggle('girar');
+    
   });
 });
